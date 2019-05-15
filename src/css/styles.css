@@ -236,6 +236,7 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .linha_3_pgdc {float: left; width: 100%; font-size: 6.3vw;}
 
    .txt_diferencial { float: right; width: 42%; padding: 0 1.5% 10.12% 57%; font-size: 2.6vw; color: #f9b006; }
+   .txt_desconto { float: right; width: 45%; padding: 0 2% 0 2%; font-size: 2.6vw; color: #033675; background: #f9b006; margin-bottom: 3.16%; }
 
 /* #SECTION_2 (O CURSO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso{float: left; width: 100%; padding: 0% 0%;}
@@ -361,6 +362,7 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .linha_3_pgdc {float: left; width: 100%; font-size: 6.3vw;}
 
     .txt_diferencial { float: right; width: 38%; padding: 3.3% 10.5%; font-size: 3vw; color: #f9b006; }
+    .txt_desconto { float: right; width: 45%; padding: 0 2% 0 2%; font-size: 2.6vw; color: #033675; background: #f9b006; margin-bottom: 3.16%; }
 
 /*_SECTION_2 (O CURSO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso{float: left; width: 100%;}
@@ -494,6 +496,7 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .linha_3_pgdc {float: left; width: 100%; font-size: 7.3vw;}
 
     .txt_diferencial { float: left; width: 47%; padding: 5% 3% 5% 50%; font-size: 3vw; color: #f9b006; }
+    .txt_desconto { float: right; width: 45%; padding: 0 2% 0 2%; font-size: 2.6vw; color: #033675; background: #f9b006; margin-bottom: 3.16%; }
 
 /*_SECTION_2 (O CURSO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso{float: left; width: 100%;}
@@ -633,6 +636,7 @@ polyline { color: #f9b006; }
     .linha_3_pgdc {float: left; width: 100%; font-size: 7.3vw;}
 
     .txt_diferencial { float: left; width: 55%; padding: 5% 5% 5% 40%; font-size: 3.5vw; color: #f9b006; }
+    .txt_desconto { float: right; width: 45%; padding: 0 2% 0 2%; font-size: 2.6vw; color: #033675; background: #f9b006; margin-bottom: 3.16%; }
 
 /*_SECTION_2 (O CURSO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso{float: left; width: 100%;}
@@ -770,6 +774,7 @@ polyline { color: #f9b006; }
     .linha_3_pgdc {float: left; width: 100%; font-size: 7.3vw;}
 
     .txt_diferencial { float: left; width: 55%; padding: 5% 5% 5% 40%; font-size: 3.5vw; color: #f9b006; }
+    .txt_desconto { float: right; width: 45%; padding: 0 2% 0 2%; font-size: 2.6vw; color: #033675; background: #f9b006; margin-bottom: 3.16%; }
 
 /*_SECTION_2 (O CURSO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso{float: left; width: 100%;}
