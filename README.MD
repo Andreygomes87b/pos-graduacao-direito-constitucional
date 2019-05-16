@@ -4,19 +4,20 @@
 - Accessibility tested with aXe Deque and Google's lighthouse and improved trought alt's and aria-labels.
 - Speed tested thought google's PageSpeed Insights & GTMetrix.
 
+** All the code shown here is uncompressed, live version is automaticaly compressed and export as .php by GruntJs workflow established. ** 
 ---
 
-## Live version: 
-<a href="https://www.fdsm.edu.br/pos-graduacao-direito-constitucional/" target="_blank">Constitutional Rights (Live).</a>
-
----
-
-## Web-archive version:
-<a href="http://web.archive.org/web/20190516191928/https://www.fdsm.edu.br/pos-graduacao-direito-constitucional/" target="_blank">Constitutional Rights (Web-archive).</a>
+## :metal: *Live version:* 
+[Constitutional Rights (Live).](https://www.fdsm.edu.br/pos-graduacao-direito-constitucional/)
 
 ---
 
-## PageSpeed Report (both mobile/desktop are over 90 on Lighthouse scoring guide):
-<a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.fdsm.edu.br%2Fpos-graduacao-direito-constitucional%2F&tab=mobile" target="_blank">Lighthouse Report.</a>
+## :date: *Web-archive version:*
+[Constitutional Rights (Web-archive).](http://web.archive.org/web/20190516191928/https://www.fdsm.edu.br/pos-graduacao-direito-constitucional/)
+
+---
+
+## :rabbit2: *PageSpeed Report* (both mobile/desktop are over 90 on Lighthouse scoring guide):
+[Lighthouse Report.](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.fdsm.edu.br%2Fpos-graduacao-direito-constitucional%2F&tab=mobile" )
 
 ---
