@@ -1,2 +1,5 @@
 # Ignore gruntJs Folder.
 /node_modules
+
+# ignore a single file
+package-lock.json

@@ -4,6 +4,7 @@ polyline{ color:#f9b006; }
 section{ float: left; width: 100%; position: relative; }
 body > section:nth-child(8){float: none;} /* Allows back to top to work since it can't float. */
 #btt > a:hover{ background-color: #033675; transition: ease 1s; }
+a{text-decoration: none;}
 
 /* Scrollbar styles */
 ::-webkit-scrollbar {width: 10px;} 
@@ -22,13 +23,13 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url('../../../libre-franklin-v3-latin-regular.eot'); /* IE9 Compat Modes */
-   src: local('../../../Libre Franklin'), local('../../../LibreFranklin-Regular'),
-       url('../../../libre-franklin-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../../../libre-franklin-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers THIS HAVE TO GO OUTSIDE THE FOLDER*/
-       url('../../../libre-franklin-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../../../libre-franklin-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../../../libre-franklin-v3-latin-regular.svg#LibreFranklin') format('svg'); /* Legacy iOS */
+  src: url('libre-franklin-v3-latin-regular.eot'); /* IE9 Compat Modes */
+   src: local('Libre Franklin'), local('LibreFranklin-Regular'),
+       url('libre-franklin-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('libre-franklin-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers THIS HAVE TO GO OUTSIDE THE FOLDER*/
+       url('libre-franklin-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('libre-franklin-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('libre-franklin-v3-latin-regular.svg#LibreFranklin') format('svg'); /* Legacy iOS */
 }
 
 /* oswald-regular - latin */
@@ -37,13 +38,13 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url('../../../oswald-v17-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('../../../Oswald Regular'), local('../../../Oswald-Regular'),
-       url('../../../oswald-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../../../oswald-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers AND THIS ONE TOO */
-       url('../../../oswald-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../../../oswald-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../../../oswald-v17-latin-regular.svg#Oswald') format('svg'); /* Legacy iOS */
+  src: url('oswald-v17-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Oswald Regular'), local('Oswald-Regular'),
+       url('oswald-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('oswald-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers AND THIS ONE TOO */
+       url('oswald-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('oswald-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('oswald-v17-latin-regular.svg#Oswald') format('svg'); /* Legacy iOS */
 }
 
 /* Hamburger menu's General Classes */
@@ -73,8 +74,7 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
 /* LARGE DEVICES, WIDE SCREENS ==================================================================================================================================================================================================================================================================================================*/
 @media only screen and (min-width : 1201px) {
     a:link, a:visited {cursor: pointer; text-decoration: none; color: #FFF}
-    a:hover{background-color: #f9b006; color:#fff;  transition: ease 1s;}
-    a:link:active, a:visited:active {color: (internal value);}
+    /*a:hover{background-color: #f9b006; color:#fff;  transition: ease 1s;}    */
     h1{font-size: 6vw; color: #FFF; margin: 0; font-family: 'Oswald', sans-serif;}
     p { font-size: 1.2vw; color: #58595b; padding: 2% 2%; margin: 0 0; }
 
@@ -85,9 +85,6 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     #myLinks {float: left; width: 89%; margin: 0% 0; display: block; font-size: 1vw;}    
     .icon{display: none;}    
     /* end of hamburguer's menu */
-
-    #barra_menu {float: left; width: 100%;}
-    #centralizador_de_topicos {float: left; width: 100%; background-color: #033675;}
 
     ul {list-style: none; width: 100%; float: left; padding: 0% 0%;}
     li {float: left; padding: 1% 1%; width: 18%; text-align: center;}
@@ -100,8 +97,9 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
 
 /* #SECTION_1 (TOPO) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    .webp .calltest{background-image: url(../../../imagens/webp/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
-    .no-webp .calltest{background-image: url(../../../imagens/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
+    /*.webp .calltest{background-image: url(../images/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}*/
+    .webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
+    .no-webp .calltest{background-image: url(images/img-fallback/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
 
     #txts_pgdc { float: right; width: 40%; padding: 5.75% 4% 0; color: #fff; font-weight: 600; }
     .linha_1_pgdc {float: left; width: 100%; font-size: 4vw;}
@@ -120,20 +118,15 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
     .youtube-player img:hover {-webkit-filter: brightness(75%);}    
-    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(../../../imagens/video_play.png); cursor: pointer;}
+    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
     /*end of responsive video classes */
 
     #half_txt_curso {float: left; width: 40%; margin: 5% 0% 0%;}
     
     .bh{border: 3px solid; color: #dddfe1; padding: 0; margin: 0 0; width: 30%;}
-    #half_txt_curso > div > hr, #txt_titulo_estrutura > hr{color: #033675;}
+    #half_txt_curso > div > hr, #txt_titulo_estrutura > hr{color: #033675;}    
 
-    .bhf {border: 3px solid; color: #FFF; padding: 0; margin: 1% 5%; width: 90%;}
-
-    .buttonb {border: none; color: white; padding: 2% 2%; text-align: center; text-decoration: none; font-size: 1.5vw; font-weight: 600; margin: 0; cursor: pointer; border-radius: 20px; background-color: #033675; width: fit-content;}
-    .buttonb:hover {background-color: #2a89ad; transition: ease 1s;}
-
-/* #SECTION_3 (TEMA DAS AULAS) */
+    /* #SECTION_3 (TEMA DAS AULAS) */
     #tema_das_aulas{ float: left; width: 100%; background-color: #033675; }
     #txt_tema_das_aulas { color: #fff; float: left; width: 25%; margin: 0 12.5% 0; }
     #txt_e_btn_tema_das_aulas { float: left; color: #fff; text-align: center; font-size: 1.5vw; padding: 5.5% 9.5%; width: 27%; }
@@ -182,7 +175,7 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     #contato { float: left; width: 86%; padding: 0 7%; }
         
     #container_redes_sociais_s { float: left; width: 85%; margin: 0% 7.5% 2%; display: block; }
-    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('../../../imagens/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
     .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
     .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
@@ -192,8 +185,6 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; }
 
     .logo{float: right; padding: 1% 1%;}
-    .img_logo {float: left; width: 15%; padding: 0 43%;}
-
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
     #btt { float: left; width: 1.4%; height: 3%; margin: 49% 0 0 97.6%; position: fixed; }
@@ -213,13 +204,9 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .icon{display: none;}    
     /* end of hamburguer's menu */
 
-    #barra_menu {float: left; width: 100%;}
-    #centralizador_de_topicos {float: left; width: 100%; background-color: #033675;}
-
     ul {list-style: none; width: 100%; float: left; padding: 0% 0%;}
     li {float: left; padding: 1% 1%; width: 18%; text-align: center;}
     li a {color: #fff; text-align: center; font-weight: 600; font-size: 2vw; float: left; width: -webkit-fill-available; text-decoration: none;}
-    li a:hover {background-color: #033675; transition: ease 0.6s;}
 
     .osb {color: #033675;}
     .osw{color: #FFF;}
@@ -227,8 +214,8 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
 
 /* #SECTION_1 (TOPO) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    .webp .calltest{background-image: url(../../../imagens/webp/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
-    .no-webp .calltest{background-image: url(../../../imagens/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
+    .webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
+    .no-webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
 
     #txts_pgdc { float: right; width: 40%; padding: 5.75% 4% 0; color: #fff; font-weight: 600; }
     .linha_1_pgdc {float: left; width: 100%; font-size: 4vw;}
@@ -248,7 +235,7 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
     .youtube-player img:hover {-webkit-filter: brightness(75%);}    
-    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(../../../imagens/video_play.png); cursor: pointer;}
+    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
     /*end of responsive video classes */
 
     #half_txt_curso { float: left; width: 80%; margin: 0% 10% 0; }
@@ -256,16 +243,11 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .bh{border: 3px solid; color: #dddfe1; padding: 0; margin: 0 0; width: 30%;}
     #half_txt_curso > div > hr, #txt_titulo_estrutura > hr{color: #033675;}
 
-    .bhf {border: 3px solid; color: #FFF; padding: 0; margin: 1% 5%; width: 90%;}
-
-    .buttonb {border: none; color: white; padding: 2% 2%; text-align: center; text-decoration: none; font-size: 1.5vw; font-weight: 600; margin: 0; cursor: pointer; border-radius: 20px; background-color: #033675; width: fit-content;}
-    .buttonb:hover {background-color: #2a89ad; transition: ease 1s;}
-
 /* #SECTION_3 (TEMA DAS AULAS) */
     #tema_das_aulas{ float: left; width: 100%; background-color: #033675; }
     #txt_tema_das_aulas { color: #fff; float: left; width: 25%; margin: 0 12.5% 0; }
     #txt_e_btn_tema_das_aulas { float: left; color: #fff; text-align: center; font-size: 1.5vw; padding: 5.5% 9.5%; width: 27%; }
-    .btn_download{ background-color: #f9b006; color: #033675; text-align: center; width: 26%; margin: 5% 32% 0; padding: 2% 5%; border-radius: 10px; cursor: pointer; }
+    .btn_download{ background-color: #f9b006; color: #033675; text-align: center; width: 26%; margin: 5% 32% 0; padding: 2% 5%; border-radius: 10px; cursor: pointer; text-decoration: none;}
 
 
 /* #SECTION_4 (NOSSA ESTRUTURA) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -302,15 +284,13 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
 
 /*_SECTION_5 (CONHEÇA NOSSO CORPO DOCENTE) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #conheca_nosso_corpo_docente { float: left; width: 90%; padding: 0% 5% 3%; background: #033675; }
-    #txt_conheca { color: #fff; float: left; width: 40%; margin: 2.4% 30%; }
-    .txt_sec{float: left; margin: 0 10%;}   
+    #txt_conheca { color: #fff; float: left; width: 40%; margin: 2.4% 30%; }    
 
-/*_SECTION_6 (NOSSOS DIFERENCIAIS & CONTATO) ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-    #contato > p > a:nth-child(1):hover, #contato > p > a:nth-child(3):hover{color:#fff !important;}
+/*_SECTION_6 (NOSSOS DIFERENCIAIS & CONTATO) ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/   
     #contato { float: left; width: 86%; padding: 0 7%; }
     
     #container_redes_sociais_s { float: left; width: 85%; margin: 0% 7.5% 2%; display: block; }
-    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('../../../imagens/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
     .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
     .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
@@ -319,13 +299,10 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .twitter-s { background-position: -5px -106px; width: 48px; height: 48px; }
     .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; }
 
-    .logo{float: right; padding: 1% 1%;}
-    .img_logo {float: left; width: 15%; padding: 0 43%;}
-
+    .logo{float: right; padding: 1% 1%;}    
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
     #btt { float: left; width: 1.4%; height: 3%; margin: 130% 0 0 97.6%; position: fixed; }
-
 
 }
 /* Medium Devices, Desktops NEXUS 10 ======================================================================================================================================================================================================================================================================================================================*/
@@ -333,18 +310,13 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
 @media only screen and (max-width : 992px) {
     polyline { color: #f9b006; }
 
-    a:link, a:visited {cursor: pointer; text-decoration: none;}
-    a:link:active, a:visited:active {color: (internal value);}
+    a:link, a:visited {cursor: pointer; text-decoration: none;}   
     h1{font-size: 6vw; color: #FFF; margin: 0; font-family: 'Oswald', sans-serif;}
     p {font-size: 1.5vw; color: #58595B; padding: 2% 2%;}
-
-    #barra_menu {float: left; width: 100%;}
-    #centralizador_de_topicos {float: left; width: 100%; background-color: #033675;}
-
+    
     ul {list-style: none; width: 100%; float: left; padding: 0% 0%;}
     li {float: left; padding: 1% 1%; width: 18%; text-align: center;}
-    li a {color: #fff; text-align: center; font-weight: 600; font-size: 2vw; float: left; width: -webkit-fill-available;}
-    li a:hover {background-color: #033675; transition: ease 0.6s;}
+    li a {color: #fff; text-align: center; font-weight: 600; font-size: 2vw; float: left; width: -webkit-fill-available;}    
 
     .osb {color: #033675;}
     .osw{color: #FFF;}
@@ -352,8 +324,8 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    .webp .calltest{background-image: url(../../../imagens/webp/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
-    .no-webp .calltest{background-image: url(../../../imagens/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
+    .webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
+    .no-webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
 
     #txts_pgdc { float: right; width: 40%; padding: 5.75% 4% 0; color: #fff; font-weight: 600; }
 
@@ -374,16 +346,11 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
     .youtube-player img:hover {-webkit-filter: brightness(75%);}    
-    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(../../../imagens/video_play.png); cursor: pointer;}
+    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
     /* End of Responsive Video Classes */
 
     #half_txt_curso { float: left;width: 80%; margin: 0% 10% 0; }
-    
     .bh{border: 3px solid; color: #dddfe1; padding: 0; margin: 0 0; width: 30%;}
-    .bhf {border: 3px solid; color: #FFF; padding: 0; margin: 1% 5%; width: 90%;}
-
-    .buttonb {border: none; color: white; padding: 2% 2%; text-align: center; text-decoration: none; font-size: 1.5vw; font-weight: 600; margin: 0; cursor: pointer; border-radius: 20px; background-color: #033675; width: fit-content;}
-    .buttonb:hover {background-color: #2a89ad; transition: ease 1s;}
 
 /* #SECTION_4 (NOSSA ESTRUTURA) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #nossa_estrutura { float: left; width: 90%; padding: 0% 5%;}
@@ -419,14 +386,13 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
 
 /*_SECTION_5 (CONHEÇA NOSSO CORPO DOCENTE) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #conheca_nosso_corpo_docente{float: left; width: 90%; padding: 3% 5%; background: #033675; }
-    #txt_conheca{ color: #FFF; }
-    .txt_sec{float: left; margin: 0 10%;}    
+    #txt_conheca{ color: #FFF; }    
 
 /*_SECTION_6 (NOSSOS DIFERENCIAIS & CONTATO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #contato{float: left; width: 90%; padding: 0% 3%;}
        
     #container_redes_sociais_s { float: left; width: 85%; margin: 0% 7.5% 2%; display: block; }
-    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('../../../imagens/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
     .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
     .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
@@ -435,9 +401,7 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .twitter-s { background-position: -5px -106px; width: 48px; height: 48px; }
     .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; }
 
-    .logo{float: right; padding: 1% 1%;}
-    .img_logo {float: left; width: 15%; padding: 0 43%;}
-
+    .logo{float: right; padding: 1% 1%;}  
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
     #btt { float: left; width: 1.4%; height: 3%; margin: 155% 0 0 96.6%; position: fixed; }
@@ -459,8 +423,7 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .topnav #myLinks  {transition: display 0.2s ease; display: none;}
     #myLinks {width: 100%;}
     .topnav a {color: #FFFFFF; padding: 2% 2%; text-decoration: none; font-size: 3vw; display: block; margin: 0 0 0 0;}
-    .topnav a.icon { background: #f9b006; display: block; position: absolute; right: 0; top: 0; float: right; width: 12%; height: 91px; }
-    .topnav a:onclick {background-color: #ddd; color: black;}
+    .topnav a.icon { background: #f9b006; display: block; position: absolute; right: 0; top: 0; float: right; width: 12%; height: 91px; }    
     .menu_active {float: initial !important;  display: inline; background-color: #033675; color: #FFFFFF;}
     .menu_active:first-child{float: initial !important; width: 100%; display: flex; padding: 0 0;}    
     /* End of the Responsive Menu */
@@ -468,17 +431,13 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .esp{margin: 5%; padding: 0; width: 10%;}
     #logo_topo_w{float: left; width: 100%;}
 
-    a:link, a:visited {cursor: pointer; text-decoration: none;}
-    a:link:active, a:visited:active {color: (internal value);}
+    a:link, a:visited {cursor: pointer; text-decoration: none;}    
     h1{font-size: 6vw; color: #FFF; margin: 0; font-family: 'Oswald', sans-serif;}
     p {font-size: 3.5vw; color: #58595B; padding: 0% 5%;}
-
-    #barra_menu {float: left; width: 100%;}
-    #centralizador_de_topicos {float: left; width: 100%; background-color: #033675;}
+    
     ul {list-style: none; width: 100%; float: left; padding: 0% 0%;}
     li { float: left; padding: 1% 1%; width: 31.3%; text-align: center; }
-    li a {color: #fff; text-align: center; font-weight: 600; font-size: 2.5vw; float: left; width: -webkit-fill-available;}
-    li a:hover {background-color: #033675; transition: ease 0.6s;}
+    li a {color: #fff; text-align: center; font-weight: 600; font-size: 2.5vw; float: left; width: -webkit-fill-available;}    
     
     .osb {color: #033675;}
     .osw{color: #FFF;}
@@ -486,8 +445,8 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    .webp .calltest{background-image: url(../../../imagens/webp/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
-    .no-webp .calltest{background-image: url(../../../imagens/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
+    .webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
+    .no-webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
 
     #txts_pgdc { float: right; width: 50%; padding: 5% 0% 0; color: #fff; font-weight: 600; }
 
@@ -508,16 +467,12 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
     .youtube-player img:hover {-webkit-filter: brightness(75%);}    
-    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(../../../imagens/video_play.png); cursor: pointer;}
+    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
     /* End of Responsive Video Classes */
 
     #half_txt_curso {float: left; width: 100%; margin: 5% 0% 0%;}
     
     .bh{border: 3px solid; color: #dddfe1; padding: 0; margin: 0 0; width: 30%;}
-    .bhf {border: 3px solid; color: #FFF; padding: 0; margin: 1% 5%; width: 90%;}
-
-    .buttonb {border: none; color: white; padding: 2% 2%; text-align: center; text-decoration: none; font-size: 3.5vw; font-weight: 600; margin: 0; cursor: pointer; border-radius: 20px; background-color: #033675; width: fit-content;}
-    .buttonb:hover {background-color: #2a89ad; transition: ease 1s;}
 
 /* #SECTION_3 (TEMA DAS AULAS) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 #txt_tema_das_aulas { color: #fff; float: left; width: 32%; margin: 0 29% 0; }
@@ -558,14 +513,13 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
 /*_SECTION_5 (CONHEÇA NOSSO CORPO DOCENTE) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #conheca_nosso_corpo_docente { float: left; width: 90%; padding: 3% 5%; background: #033675; }
     #txt_conheca{ color: #FFF; }
-    .txt_sec{float: left; margin: 0 10%;}    
-
+  
 /*_SECTION_6 (NOSSOS DIFERENCIAIS & CONTATO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #contato{float: left; width: 90%; padding: 0% 3%;}
 
     /* sprite testing on social media icons */
     #container_redes_sociais_s { float: left; width: 40%; margin: 0% 30%; display: block; }
-    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('../../../imagens/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
     .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
     .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
@@ -575,8 +529,6 @@ body > section:nth-child(8){float: none;} /* Allows back to top to work since it
     .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; }
 
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
-    .img_logo {float: left; width: 15%; padding: 0 43%;}
-
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
     #btt { float: left; width: 1.4%; height: 3%; margin: 126% 0 0 94.6%; position: fixed; }
@@ -600,7 +552,6 @@ polyline { color: #f9b006; }
     #myLinks {width: 100%;}
     .topnav a {color: #FFFFFF; padding: 2% 2%; text-decoration: none; font-size: 3vw; display: block; margin: 0 0 0 0;}
     .topnav a.icon { background: #f9b006; display: block; position: absolute; right: 0; top: 0; float: right; width: 12%; height: 41px; }
-    .topnav a:onclick {background-color: #ddd; color: black;}
     .menu_active {float: initial !important;  display: inline; background-color: #033675; color: #FFFFFF;}
     .menu_active:first-child{float: initial !important; width: 100%; display: flex; padding: 0 0;}    
     /* End of the Responsive Menu */
@@ -608,26 +559,18 @@ polyline { color: #f9b006; }
     .esp{margin: 5%; padding: 0; width: 10%;}
     #logo_topo_w{float: left; width: 100%;}
 
-    a:link, a:visited {cursor: pointer; text-decoration: none;}
-    a:link:active, a:visited:active {color: (internal value);}
+    a:link, a:visited {cursor: pointer; text-decoration: none;}   
     h1{font-size: 6vw; color: #FFF; margin: 0; font-family: 'Oswald', sans-serif;}
-    p {font-size: 3.5vw; color: #58595B; padding: 0% 5%;}
-
-    #barra_menu {float: left; width: 100%;}
-    #centralizador_de_topicos {float: left; width: 100%; background-color: #033675;}
-    ul {list-style: none; width: 100%; float: left; padding: 0% 0%;}
-    li { float: left; padding: 1% 1%; width: 31.3%; text-align: center; }
-    li a {color: #fff; text-align: center; font-weight: 600; font-size: 2.5vw; float: left; width: -webkit-fill-available;}
-    li a:hover {background-color: #033675; transition: ease 0.6s;}
-    
+    p {font-size: 3.5vw; color: #58595B; padding: 0% 5%;}  
+      
     .osb {color: #033675;}
     .osw{color: #FFF;}
     .titulos {font-size: 7vw; padding: 2% 5% 0;}
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    .webp .calltest{background-image: url(../../../imagens/webp/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
-    .no-webp .calltest{background-image: url(../../../imagens/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
+    .webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
+    .no-webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
 
     #txts_pgdc { float: right; width: 50%; padding: 5% 0% 0; color: #fff; font-weight: 600; }
 
@@ -648,20 +591,16 @@ polyline { color: #f9b006; }
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
     .youtube-player img:hover {-webkit-filter: brightness(75%);}    
-    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(../../../imagens/video_play.png); cursor: pointer;}
+    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
     /* End of Responsive Video Classes */
 
     #half_txt_curso {float: left; width: 100%; margin: 5% 0% 0%;}
     
-    .bh{border: 3px solid; color: #dddfe1; padding: 0; margin: 0 0; width: 30%;}
-    .bhf {border: 3px solid; color: #FFF; padding: 0; margin: 1% 5%; width: 90%;}
-
-    .buttonb {border: none; color: white; padding: 2% 2%; text-align: center; text-decoration: none; font-size: 3.5vw; font-weight: 600; margin: 0; cursor: pointer; border-radius: 20px; background-color: #033675; width: fit-content;}
-    .buttonb:hover {background-color: #2a89ad; transition: ease 1s;}
+    .bh{border: 3px solid; color: #dddfe1; padding: 0; margin: 0 0; width: 30%;}   
 
 /* #SECTION_3 (TEMA DAS AULAS) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-#txt_tema_das_aulas { color: #fff; float: left; width: 32%; margin: 0 29% 0; }
-#txt_e_btn_tema_das_aulas { float: left; color: #fff; text-align: center; font-size: 3vw; padding: 5.5% 9.5%; width: 81%; }
+    #txt_tema_das_aulas { color: #fff; float: left; width: 32%; margin: 0 29% 0; }
+    #txt_e_btn_tema_das_aulas { float: left; color: #fff; text-align: center; font-size: 3vw; padding: 5.5% 9.5%; width: 81%; }
 
 /* #SECTION_4 (NOSSA ESTRUTURA) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #nossa_estrutura { float: left; width: 90%; padding: 0% 5%;}
@@ -698,14 +637,13 @@ polyline { color: #f9b006; }
 /*_SECTION_5 (CONHEÇA NOSSO CORPO DOCENTE) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #conheca_nosso_corpo_docente { float: left; width: 90%; padding: 3% 5%; background: #033675; }
     #txt_conheca{ color: #FFF; }
-    .txt_sec{float: left; margin: 0 10%;}    
-
+ 
 /*_SECTION_6 (NOSSOS DIFERENCIAIS & CONTATO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #contato{float: left; width: 90%; padding: 0% 3%;}
     
     /* sprite testing on social media icons */
     #container_redes_sociais_s { float: left; width: 82%; margin: 5% 9%; display: block; }
-    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('../../../imagens/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
     .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
     .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
@@ -715,8 +653,6 @@ polyline { color: #f9b006; }
     .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; }
 
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
-    .img_logo {float: left; width: 15%; padding: 0 43%;}
-
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
     #btt { float: left; width: 1.4%; height: 3%; margin: 150% 0 0 94.6%; position: fixed; }
@@ -738,7 +674,6 @@ polyline { color: #f9b006; }
     #myLinks {width: 100%;}
     .topnav a {color: #FFFFFF; padding: 2% 2%; text-decoration: none; font-size: 3vw; display: block; margin: 0 0 0 0;}
     .topnav a.icon { background: #f9b006; display: block; position: absolute; right: 0; top: 0; float: right; width: 8%; height: 38px; }
-    .topnav a:onclick {background-color: #ddd; color: black;}
     .menu_active {float: initial !important;  display: inline; background-color: #033675; color: #FFFFFF;}
     .menu_active:first-child{float: initial !important; width: 100%; display: flex; padding: 0 0;}    
     /* End of the Responsive Menu */
@@ -747,25 +682,17 @@ polyline { color: #f9b006; }
     #logo_topo_w{float: left; width: 100%;}
 
     a:link, a:visited {cursor: pointer; text-decoration: none;}
-    a:link:active, a:visited:active {color: (internal value);}
     h1{font-size: 6vw; color: #FFF; margin: 0; font-family: 'Oswald', sans-serif;}
     p {font-size: 3.5vw; color: #58595B; padding: 0% 5%;}
-
-    #barra_menu {float: left; width: 100%;}
-    #centralizador_de_topicos {float: left; width: 100%; background-color: #033675;}
-    ul {list-style: none; width: 100%; float: left; padding: 0% 0%;}
-    li { float: left; padding: 1% 1%; width: 31.3%; text-align: center; }
-    li a {color: #fff; text-align: center; font-weight: 600; font-size: 2.5vw; float: left; width: -webkit-fill-available;}
-    li a:hover {background-color: #033675; transition: ease 0.6s;}
-    
+ 
     .osb {color: #033675;}
     .osw{color: #FFF;}
     .titulos {font-size: 7vw; padding: 2% 5% 0;}
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    .webp .calltest{background-image: url(../../../imagens/webp/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
-    .no-webp .calltest{background-image: url(../../../imagens/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
+    .webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
+    .no-webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
 
     #txts_pgdc { float: right; width: 50%; padding: 5% 0% 0; color: #fff; font-weight: 600; }
 
@@ -786,20 +713,18 @@ polyline { color: #f9b006; }
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
     .youtube-player img:hover {-webkit-filter: brightness(75%);}    
-    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(../../../imagens/video_play.png); cursor: pointer;}
+    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
     /* End of Responsive Video Classes */
 
     #half_txt_curso {float: left; width: 100%; margin: 5% 0% 0%;}
     
     .bh{border: 3px solid; color: #dddfe1; padding: 0; margin: 0 0; width: 30%;}
-    .bhf {border: 3px solid; color: #FFF; padding: 0; margin: 1% 5%; width: 90%;}
-
     .buttonb {border: none; color: white; padding: 2% 2%; text-align: center; text-decoration: none; font-size: 3.5vw; font-weight: 600; margin: 0; cursor: pointer; border-radius: 20px; background-color: #033675; width: fit-content;}
     .buttonb:hover {background-color: #2a89ad; transition: ease 1s;}
 
 /* #SECTION_3 (TEMA DAS AULAS) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-#txt_tema_das_aulas { color: #fff; float: left; width: 32%; margin: 0 29% 0; }
-#txt_e_btn_tema_das_aulas { float: left; color: #fff; text-align: center; font-size: 3vw; padding: 5.5% 9.5%; width: 81%; }
+    #txt_tema_das_aulas { color: #fff; float: left; width: 32%; margin: 0 29% 0; }
+    #txt_e_btn_tema_das_aulas { float: left; color: #fff; text-align: center; font-size: 3vw; padding: 5.5% 9.5%; width: 81%; }
 
 /* #SECTION_4 (NOSSA ESTRUTURA) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #nossa_estrutura { float: left; width: 90%; padding: 0% 5%;}
@@ -836,14 +761,13 @@ polyline { color: #f9b006; }
 /*_SECTION_5 (CONHEÇA NOSSO CORPO DOCENTE) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #conheca_nosso_corpo_docente { float: left; width: 90%; padding: 3% 5%; background: #033675; }
     #txt_conheca{ color: #FFF; }
-    .txt_sec{float: left; margin: 0 10%;}
     
 /*_SECTION_6 (NOSSOS DIFERENCIAIS & CONTATO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #contato{float: left; width: 90%; padding: 0% 3%;}
 
     /* sprite testing on social media icons */
     #container_redes_sociais_s { float: left; width: 95.5%; margin: 5% 2.25%; display: block; }
-    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('../../../imagens/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
     .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
     .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
@@ -853,12 +777,9 @@ polyline { color: #f9b006; }
     .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; }
 
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
-    .img_logo {float: left; width: 15%; padding: 0 43%;}
-
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
     #btt { float: left; width: 1.4%; height: 3%; margin: 140% 0 0 94.6%; position: fixed; }
-
 
 }
 /*======================================================================================================================================================================================================================================================================================================================*/
