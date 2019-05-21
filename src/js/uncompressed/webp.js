@@ -1,0 +1,1 @@
+Modernizr.on("webp",function(i){i?$(".img-webp").each(function(){this.src=$(this).data("webp")}):$(".img-webp").each(function(){this.src=$(this).data("original")})});
