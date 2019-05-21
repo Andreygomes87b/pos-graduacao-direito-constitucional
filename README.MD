@@ -4,7 +4,7 @@
 - Accessibility tested with aXe Deque and Google's lighthouse and improved trought alt's and aria-labels.
 - Speed tested thought google's PageSpeed Insights & GTMetrix.
 
-** All the code shown here is uncompressed, live version is automaticaly compressed and exported as .php by GruntJs workflow established. ** 
+** For evaluation purposes the code to look for are the uncompressed, commented and legible versions (index.html/ styles.css), live version is automaticaly compressed (comment/whitespaces stripped) and exported as index.php/stylesf-min.css by GruntJs workflow established. ** 
 <br>
 ---
 
@@ -28,4 +28,4 @@
 
 ---
 
-See my developer story over [stackoverflow](https://stackoverflow.com/story/andreygomes87b) and call me on [Linkedin](https://www.linkedin.com/in/andreygomes87b/)! :world: :metal: 
+See my developer story over [stackoverflow](https://stackoverflow.com/story/andreygomes87b) and call me on [Linkedin](https://www.linkedin.com/in/andreygomes87b/)! :earth_americas: :metal: 
