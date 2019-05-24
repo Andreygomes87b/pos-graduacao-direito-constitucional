@@ -101,13 +101,13 @@ a{text-decoration: none;}
     .webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
     .no-webp .calltest{background-image: url(images/img-fallback/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
 
-    #txts_pgdc { float: right; width: 40%; padding: 5.75% 4% 0; color: #fff; font-weight: 600; }
+    #txts_pgdc { float: right; width: 40%; padding: 3.82% 4% 0; color: #fff; font-weight: 600; }
     .linha_1_pgdc {float: left; width: 100%; font-size: 4vw;}
     .linha_2_pgdc { float: left; width: 100%; font-size: 13vw; line-height: 100%; }
     .linha_3_pgdc {float: left; width: 100%; font-size: 6.3vw;}
 
    .txt_diferencial { float: right; width: 42%; padding: 0 1.5% 3% 57%; font-size: 2.6vw; color: #f9b006; }
-   .txt_desconto { float: right; width: 45%; padding: 0 2% 0 2%; font-size: 2.6vw; color: #033675; background: #f9b006; margin-bottom: 3.16%; }
+   .txt_desconto { float: right; width: 45%; padding: 0 2% 0.4% 2%; font-size: 2.6vw; color: #033675; background: #f9b006; margin-bottom: 3.16%; }
 
 /* #SECTION_2 (O CURSO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso{float: left; width: 100%; padding: 0% 0%;}
@@ -186,7 +186,7 @@ a{text-decoration: none;}
     .logo{float: right; padding: 1% 1%;}
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
-    #btt { float: left; width: 1.4%; height: 3%; margin: 49% 0 0 97.6%; position: fixed; }
+    #btt { float: left; width: 1.4%; height: 3%; margin: 47% 0 0 97.6%; position: fixed; }
 
 
 }
