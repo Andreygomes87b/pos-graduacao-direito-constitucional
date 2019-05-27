@@ -170,7 +170,7 @@ a{text-decoration: none;}
     .txt_sec{float: left; margin: 0 10%;}   
 
 /*_SECTION_6 (NOSSOS DIFERENCIAIS & CONTATO) ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/    
-    #contato > p > a:nth-child(1):hover, #contato > p > a:nth-child(3):hover{color:#fff !important;}
+    #contato > p > a:nth-child(1):hover, #contato > p > a:nth-child(3):hover{color:#0056c7 !important;}
     #contato { float: left; width: 86%; padding: 0 7%; }
         
     #container_redes_sociais_s { float: left; width: 85%; margin: 0% 7.5% 2%; display: block; }
