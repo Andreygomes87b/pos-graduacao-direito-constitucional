@@ -126,11 +126,11 @@ a{text-decoration: none;}
     .bh{border: 3px solid; color: #dddfe1; padding: 0; margin: 0 0; width: 30%;}
     #half_txt_curso > div > hr, #txt_titulo_estrutura > hr{color: #033675;}    
 
-    /* #SECTION_3 (TEMA DAS AULAS) */
+/* #SECTION_3 (CONTEÚDO PROGRAMÁTICO) */
     #conteudo_programatico{ float: left; width: 100%; background-color: #033675; }
     #txt_conteudo_programatico { color: #fff; float: left; width: 25%; margin: 0 12.5% 0; }
     #txt_e_btn_conteudo_programatico { float: left; color: #fff; text-align: center; font-size: 1.5vw; padding: 5.5% 9.5%; width: 27%; }
-    .btn_download { background-color: #f9b006; color: #033675; text-align: center; width: 40%; margin: 5% 25% 0; padding: 2% 5%; border-radius: 10px; cursor: pointer; }
+    .btn_download { background-color: #f9b006; color: #033675; float: left; text-align: center; float: left; width: 40%; margin: 5% 25% 0; padding: 2% 5%; border-radius: 10px; cursor: pointer; }
     .btn_download:hover{background-color: #f58400; color: #fff; transition: ease 1s;}
 
 /* #SECTION_4 (NOSSA ESTRUTURA) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -242,11 +242,11 @@ a{text-decoration: none;}
     .bh{border: 3px solid; color: #dddfe1; padding: 0; margin: 0 0; width: 30%;}
     #half_txt_curso > div > hr, #txt_titulo_estrutura > hr{color: #033675;}
 
-/* #SECTION_3 (TEMA DAS AULAS) */
+/* #SECTION_3 (CONTEÚDO PROGRAMÁTICO) */
     #conteudo_programatico{ float: left; width: 100%; background-color: #033675; }
     #txt_conteudo_programatico { color: #fff; float: left; width: 25%; margin: 0 12.5% 0; }
     #txt_e_btn_conteudo_programatico { float: left; color: #fff; text-align: center; font-size: 1.5vw; padding: 5.5% 9.5%; width: 27%; }
-    .btn_download{ background-color: #f9b006; color: #033675; text-align: center; width: 26%; margin: 5% 32% 0; padding: 2% 5%; border-radius: 10px; cursor: pointer; text-decoration: none;}
+    .btn_download{ background-color: #f9b006; color: #033675; text-align: center; float: left; width: 26%; margin: 5% 32% 0; padding: 2% 5%; border-radius: 10px; cursor: pointer; text-decoration: none;}
 
 /* #SECTION_4 (NOSSA ESTRUTURA) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #nossa_estrutura { float: left; width: 90%; padding: 0% 5%;}
@@ -471,7 +471,7 @@ a{text-decoration: none;}
     
     .bh{border: 3px solid; color: #dddfe1; padding: 0; margin: 0 0; width: 30%;}
 
-/* #SECTION_3 (TEMA DAS AULAS) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* #SECTION_3 (CONTEÚDO PROGRAMÁTICO) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     #txt_conteudo_programatico { color: #fff; float: left; width: 32%; margin: 0 29% 0; }
     #txt_e_btn_conteudo_programatico { float: left; color: #fff; text-align: center; font-size: 3vw; padding: 5.5% 9.5%; width: 81%; }
 
@@ -600,7 +600,7 @@ polyline { color: #f9b006; }
     
     .bh { border: 1px solid; color: #dddfe1; padding: 0; margin: 0 0; width: 22%; }
 
-/* #SECTION_3 (TEMA DAS AULAS) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* #SECTION_3 (CONTEÚDO PROGRAMÁTICO) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     #txt_conteudo_programatico { color: #fff; float: left; width: 44%; margin: 0 23% 0; padding: 5% 5% 0; }
     #txt_e_btn_conteudo_programatico { float: left; color: #fff; text-align: center; font-size: 3vw; padding: 5.5% 9.5%; width: 81%; }
 
@@ -723,7 +723,7 @@ polyline { color: #f9b006; }
     .buttonb {border: none; color: white; padding: 2% 2%; text-align: center; text-decoration: none; font-size: 3.5vw; font-weight: 600; margin: 0; cursor: pointer; border-radius: 20px; background-color: #033675; width: fit-content;}
     .buttonb:hover {background-color: #2a89ad; transition: ease 1s;}
 
-/* #SECTION_3 (TEMA DAS AULAS) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* #SECTION_3 (CONTEÚDO PROGRAMÁTICO) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     #txt_conteudo_programatico { color: #fff; float: left; width: 44%; margin: 0 23% 0; }
     #txt_e_btn_conteudo_programatico { float: left; color: #fff; text-align: center; font-size: 3vw; padding: 5.5% 9.5%; width: 81%; }
 
