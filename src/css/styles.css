@@ -74,7 +74,6 @@ a{text-decoration: none;}
 /* LARGE DEVICES, WIDE SCREENS ==================================================================================================================================================================================================================================================================================================*/
 @media only screen and (min-width : 1201px) {
     a:link, a:visited {cursor: pointer; text-decoration: none; color: #FFF}
-    /*a:hover{background-color: #f9b006; color:#fff;  transition: ease 1s;}    */
     h1{font-size: 6vw; color: #FFF; margin: 0; font-family: 'Oswald', sans-serif;}
     p { font-size: 1.2vw; color: #58595b; padding: 2% 2%; margin: 0 0; }
 
@@ -97,9 +96,9 @@ a{text-decoration: none;}
 
 /* #SECTION_1 (TOPO) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    /*.webp .calltest{background-image: url(../images/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}*/
-    .webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
-    .no-webp .calltest{background-image: url(images/img-fallback/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
+
+    .webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v3.webp);}
+    .no-webp .calltest{background-image: url(images/img-fallback/banner_topo_pos_graduacao_direito_constitucional_v3.jpg);}
 
     #txts_pgdc { float: right; width: 40%; padding: 3.82% 4% 0; color: #fff; font-weight: 600; }
     .linha_1_pgdc {float: left; width: 100%; font-size: 4vw;}
@@ -174,35 +173,19 @@ a{text-decoration: none;}
     #contato { float: left; width: 86%; padding: 0 7%; }
         
     #container_redes_sociais_s { float: left; width: 85%; margin: 0% 7.5% 2%; display: block; }
-    /*.blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;} */
 
-    /*.blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
-    .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
-    .instagram-s { background-position: -5px -53px; width: 48px; height: 48px; }
-    .linkedin-s { background-position: -58px -53px; width: 48px; height: 48px; }
-    .twitter-s { background-position: -5px -106px; width: 48px; height: 48px; }
-    .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; }*/
-
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+ 
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    
     .logo{float: right; padding: 1% 1%;}
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
-
-
-    /*teste*/
-    .webp .blog-s, .webp .facebook-s, .webp .instagram-s, .webp .linkedin-s, .webp .twitter-s, .webp .youtube-s{display: inline-block; background: url('images/rs_s_v2.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog-s, .no-webp .facebook-s, .no-webp .instagram-s, .no-webp .linkedin-s, .no-webp .twitter-s, .no-webp .youtube-s {display: inline-block; background: url('images/img-fallback/rs_s_v2.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
- 
-    .blog-s { background-position: -0px -0px !important; width: 50px; height: 50px; margin: 1%;}
-    .facebook-s { background-position: -50px -0px !important; width: 50px; height: 50px; margin: 1%;}
-    .instagram-s { background-position: -0px -50px !important; width: 50px; height: 50px; margin: 1%;}
-    .linkedin-s { background-position: -50px -50px !important; width: 50px; height: 50px; margin: 1%;}
-    .twitter-s { background-position: -0px -100px !important; width: 50px; height: 50px; margin: 1%;}
-    .youtube-s { background-position: -50px -100px !important; width: 50px; height: 50px; margin: 1%;}
-    .logo-s{float: right; padding: 1% 1%;}
-
-    /*fim do teste */
-
-
-
 
     #btt { float: left; width: 1.4%; height: 3%; margin: 50% 0 0 97.6%; position: fixed; }
 
@@ -305,17 +288,16 @@ a{text-decoration: none;}
     #contato { float: left; width: 86%; padding: 0 7%; }
     
     #container_redes_sociais_s { float: left; width: 85%; margin: 0% 7.5% 2%; display: block; }
-    /*.blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}*/
-    .webp .blog-s, .webp .facebook-s, .webp .instagram-s, .webp .linkedin-s, .webp .twitter-s, .webp .youtube-s{display: inline-block; background: url('images/rs_s_v2.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog-s, .no-webp .facebook-s, .no-webp .instagram-s, .no-webp .linkedin-s, .no-webp .twitter-s, .no-webp .youtube-s {display: inline-block; background: url('images/img-fallback/rs_s_v2.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    /*.blog, .facebook, .instagram, .linkedin, .twitter, .youtube{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}*/
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
-     .blog-s { background-position: -0px -0px !important; width: 50px; height: 50px; margin: 1%;}
-    .facebook-s { background-position: -50px -0px !important; width: 50px; height: 50px; margin: 1%;}
-    .instagram-s { background-position: -0px -50px !important; width: 50px; height: 50px; margin: 1%;}
-    .linkedin-s { background-position: -50px -50px !important; width: 50px; height: 50px; margin: 1%;}
-    .twitter-s { background-position: -0px -100px !important; width: 50px; height: 50px; margin: 1%;}
-    .youtube-s { background-position: -50px -100px !important; width: 50px; height: 50px; margin: 1%;}
-    .logo-s{float: right; padding: 1% 1%;}
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }    
 
     .logo{float: right; padding: 1% 1%;}    
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
@@ -410,30 +392,22 @@ a{text-decoration: none;}
     #contato{float: left; width: 90%; padding: 0% 3%;}
        
     #container_redes_sociais_s { float: left; width: 85%; margin: 0% 7.5% 2%; display: block; }
-    /*.blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}*/
 
-    .webp .blog-s, .webp .facebook-s, .webp .instagram-s, .webp .linkedin-s, .webp .twitter-s, .webp .youtube-s{display: inline-block; background: url('images/rs_s_v2.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog-s, .no-webp .facebook-s, .no-webp .instagram-s, .no-webp .linkedin-s, .no-webp .twitter-s, .no-webp .youtube-s {display: inline-block; background: url('images/img-fallback/rs_s_v2.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
-     .blog-s { background-position: -0px -0px !important; width: 50px; height: 50px; margin: 1%;}
-    .facebook-s { background-position: -50px -0px !important; width: 50px; height: 50px; margin: 1%;}
-    .instagram-s { background-position: -0px -50px !important; width: 50px; height: 50px; margin: 1%;}
-    .linkedin-s { background-position: -50px -50px !important; width: 50px; height: 50px; margin: 1%;}
-    .twitter-s { background-position: -0px -100px !important; width: 50px; height: 50px; margin: 1%;}
-    .youtube-s { background-position: -50px -100px !important; width: 50px; height: 50px; margin: 1%;}
-    .logo-s{float: right; padding: 1% 1%;}
-
-    /*.blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
-    .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
-    .instagram-s { background-position: -5px -53px; width: 48px; height: 48px; }
-    .linkedin-s { background-position: -58px -53px; width: 48px; height: 48px; }
-    .twitter-s { background-position: -5px -106px; width: 48px; height: 48px; }
-    .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; } */
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
 
     .logo{float: right; padding: 1% 1%;}  
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
     #btt { float: left; width: 1.4%; height: 3%; margin: 155% 0 0 96.6%; position: fixed; }
+
 
 }
 /* Ipad & Ipad mini and Tablets ======================================================================================================================================================================================================================================================================================================================*/
@@ -548,25 +522,16 @@ a{text-decoration: none;}
 
     /* sprite testing on social media icons */
    #container_redes_sociais_s { float: left; width: 47%; margin: 0 26.5%; display: block; }
-    /*.blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
-    .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
-    .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
-    .instagram-s { background-position: -5px -53px; width: 48px; height: 48px; }
-    .linkedin-s { background-position: -58px -53px; width: 48px; height: 48px; }
-    .twitter-s { background-position: -5px -106px; width: 48px; height: 48px; }
-    .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; } */
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
-    .webp .blog-s, .webp .facebook-s, .webp .instagram-s, .webp .linkedin-s, .webp .twitter-s, .webp .youtube-s{display: inline-block; background: url('images/rs_s_v2.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog-s, .no-webp .facebook-s, .no-webp .instagram-s, .no-webp .linkedin-s, .no-webp .twitter-s, .no-webp .youtube-s {display: inline-block; background: url('images/img-fallback/rs_s_v2.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-
-     .blog-s { background-position: -0px -0px !important; width: 50px; height: 50px; margin: 1%;}
-    .facebook-s { background-position: -50px -0px !important; width: 50px; height: 50px; margin: 1%;}
-    .instagram-s { background-position: -0px -50px !important; width: 50px; height: 50px; margin: 1%;}
-    .linkedin-s { background-position: -50px -50px !important; width: 50px; height: 50px; margin: 1%;}
-    .twitter-s { background-position: -0px -100px !important; width: 50px; height: 50px; margin: 1%;}
-    .youtube-s { background-position: -50px -100px !important; width: 50px; height: 50px; margin: 1%;}
-    .logo-s{float: right; padding: 1% 1%;}
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
 
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
@@ -609,8 +574,8 @@ polyline { color: #f9b006; }
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    .webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
-    .no-webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
+    .webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v3_s.webp);}
+    .no-webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v3_s.jpg);}
 
     #txts_pgdc { float: right; width: 50%; padding: 5% 0% 0; color: #fff; font-weight: 600; }
 
@@ -682,30 +647,22 @@ polyline { color: #f9b006; }
     
     /* sprite testing on social media icons */
     #container_redes_sociais_s { float: left; width: 96.2%; margin: 0 1.9% 5%; display: block; }
-    /*.blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
-    .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
-    .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
-    .instagram-s { background-position: -5px -53px; width: 48px; height: 48px; }
-    .linkedin-s { background-position: -58px -53px; width: 48px; height: 48px; }
-    .twitter-s { background-position: -5px -106px; width: 48px; height: 48px; }
-    .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; } */
-
-    .webp .blog-s, .webp .facebook-s, .webp .instagram-s, .webp .linkedin-s, .webp .twitter-s, .webp .youtube-s{display: inline-block; background: url('images/rs_s_v2.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog-s, .no-webp .facebook-s, .no-webp .instagram-s, .no-webp .linkedin-s, .no-webp .twitter-s, .no-webp .youtube-s {display: inline-block; background: url('images/img-fallback/rs_s_v2.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
     
-    .blog-s { background-position: -0px -0px !important; width: 50px; height: 50px; margin: 1%;}
-    .facebook-s { background-position: -50px -0px !important; width: 50px; height: 50px; margin: 1%;}
-    .instagram-s { background-position: -0px -50px !important; width: 50px; height: 50px; margin: 1%;}
-    .linkedin-s { background-position: -50px -50px !important; width: 50px; height: 50px; margin: 1%;}
-    .twitter-s { background-position: -0px -100px !important; width: 50px; height: 50px; margin: 1%;}
-    .youtube-s { background-position: -50px -100px !important; width: 50px; height: 50px; margin: 1%;}
-    .logo-s{float: right; padding: 1% 1%;}
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
 
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
     #btt { float: left; width: 1.4%; height: 3%; margin: 150% 0 0 94.6%; position: fixed; }
+
 
 }
 /* iPhone 4 ======================================================================================================================================================================================================================================================================================================================*/
@@ -741,8 +698,8 @@ polyline { color: #f9b006; }
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    .webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.webp);}
-    .no-webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v2.jpg);}
+    .webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v3_s.webp);}
+    .no-webp .calltest{background-image: url(images/banner_topo_pos_graduacao_direito_constitucional_v3_s.jpg);}
 
     #txts_pgdc { float: right; width: 50%; padding: 5% 0% 0; color: #fff; font-weight: 600; }
 
@@ -769,8 +726,6 @@ polyline { color: #f9b006; }
     #half_txt_curso {float: left; width: 100%; margin: 0% 0% 5%;}
     
     .bh { border: 1px solid; color: #dddfe1; padding: 0; margin: 0 0; width: 22%; }
-    .buttonb {border: none; color: white; padding: 2% 2%; text-align: center; text-decoration: none; font-size: 3.5vw; font-weight: 600; margin: 0; cursor: pointer; border-radius: 20px; background-color: #033675; width: fit-content;}
-    .buttonb:hover {background-color: #2a89ad; transition: ease 1s;}
 
 /* #SECTION_3 (CONTEÚDO PROGRAMÁTICO) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
     #txt_conteudo_programatico { color: #fff; float: left; width: 44%; margin: 0 23% 0; }
@@ -815,26 +770,17 @@ polyline { color: #f9b006; }
     #contato{float: left; width: 90%; padding: 0% 3%;}
 
     /* sprite testing on social media icons */
-    #container_redes_sociais_s { float: left; width: 52.5%; margin: 0% 23.75% 5%; display: block; }
-    /*.blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-
-    .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
-    .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
-    .instagram-s { background-position: -5px -53px; width: 48px; height: 48px; }
-    .linkedin-s { background-position: -58px -53px; width: 48px; height: 48px; }
-    .twitter-s { background-position: -5px -106px; width: 48px; height: 48px; }
-    .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; } */
-
-    .webp .blog-s, .webp .facebook-s, .webp .instagram-s, .webp .linkedin-s, .webp .twitter-s, .webp .youtube-s{display: inline-block; background: url('images/rs_s_v2.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog-s, .no-webp .facebook-s, .no-webp .instagram-s, .no-webp .linkedin-s, .no-webp .twitter-s, .no-webp .youtube-s {display: inline-block; background: url('images/img-fallback/rs_s_v2.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    #container_redes_sociais_s { float: left; width: 51%; margin: 0 24.5%; display: block; }
     
-    .blog-s { background-position: -0px -0px !important; width: 50px; height: 50px; margin: 1%;}
-    .facebook-s { background-position: -50px -0px !important; width: 50px; height: 50px; margin: 1%;}
-    .instagram-s { background-position: -0px -50px !important; width: 50px; height: 50px; margin: 1%;}
-    .linkedin-s { background-position: -50px -50px !important; width: 50px; height: 50px; margin: 1%;}
-    .twitter-s { background-position: -0px -100px !important; width: 50px; height: 50px; margin: 1%;}
-    .youtube-s { background-position: -50px -100px !important; width: 50px; height: 50px; margin: 1%;}
-    .logo-s{float: right; padding: 1% 1%;}
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+    
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
 
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
