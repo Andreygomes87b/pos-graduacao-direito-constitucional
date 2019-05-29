@@ -117,7 +117,9 @@ a{text-decoration: none;}
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
     .youtube-player img:hover {-webkit-filter: brightness(75%);}    
-    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
+    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; cursor: pointer;}
+    .webp .play { background-image: url(images/video_play.webp); }
+    .no-webp .play { background-image: url(images/img-fallback/video_play.png); }
     /*end of responsive video classes */
 
     #half_txt_curso {float: left; width: 40%; margin: 5% 0% 0%;}
@@ -235,7 +237,9 @@ a{text-decoration: none;}
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
     .youtube-player img:hover {-webkit-filter: brightness(75%);}    
-    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
+    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; cursor: pointer;}
+    .webp .play { background-image: url(images/video_play.webp); }
+    .no-webp .play { background-image: url(images/img-fallback/video_play.png); }
     /*end of responsive video classes */
 
     #half_txt_curso { float: left; width: 80%; margin: 0% 10% 5%; }
@@ -347,7 +351,9 @@ a{text-decoration: none;}
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
     .youtube-player img:hover {-webkit-filter: brightness(75%);}    
-    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
+    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; cursor: pointer;}
+    .webp .play { background-image: url(images/video_play.webp); }
+    .no-webp .play { background-image: url(images/img-fallback/video_play.png); }
     /* End of Responsive Video Classes */
 
     #half_txt_curso { float: left;width: 80%; margin: 0% 10% 0; }
@@ -470,7 +476,9 @@ a{text-decoration: none;}
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
     .youtube-player img:hover {-webkit-filter: brightness(75%);}    
-    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
+    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; cursor: pointer;}
+    .webp .play { background-image: url(images/video_play.webp); }
+    .no-webp .play { background-image: url(images/img-fallback/video_play.png); }
     /* End of Responsive Video Classes */
 
     #half_txt_curso {float: left; width: 100%; margin: 5% 0% 0%;}
@@ -596,7 +604,9 @@ polyline { color: #f9b006; }
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
     .youtube-player img:hover {-webkit-filter: brightness(75%);}    
-    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
+    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; cursor: pointer;}
+    .webp .play { background-image: url(images/video_play.webp); }
+    .no-webp .play { background-image: url(images/img-fallback/video_play.png); }
     /* End of Responsive Video Classes */
 
     #half_txt_curso {float: left; width: 100%; margin: 0% 0% 5%;}
@@ -720,7 +730,9 @@ polyline { color: #f9b006; }
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
     .youtube-player img:hover {-webkit-filter: brightness(75%);}    
-    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
+    .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; cursor: pointer;}
+    .webp .play { background-image: url(images/video_play.webp); }
+    .no-webp .play { background-image: url(images/img-fallback/video_play.png); }
     /* End of Responsive Video Classes */
 
     #half_txt_curso {float: left; width: 100%; margin: 0% 0% 5%;}
