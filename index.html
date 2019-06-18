@@ -4,9 +4,10 @@
         <meta charset="UTF-8">        
 
         <!-- Compiled and minified -->
-        <meta name="theme-color" content="#033675"/>
         <meta name="robots" content="index"/>
-
+        <meta name="theme-color" content="#033675"/>
+        <link rel="manifest" href="manifest.json">
+        
         <!--<link rel="preload" href="src/css/styles.css" as="style">
         <link rel="stylesheet" href="src/css/styles.css">-->
 
@@ -14,15 +15,23 @@
         <link rel="stylesheet" href="stylesf-min.css">
 
         <link rel="preconnect" href="https://i.ytimg.com">
+        <link rel="preconnect" href="https://www.google-analytics.com">        
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+       <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41994177-1"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-          gtag('config', 'UA-41994177-1');
+        gtag('config', 'UA-41994177-1');
+        </script>
+
+        <!-- this is the service worker script -->
+        <script>
+            if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+            }
         </script>
 
         <title>Pós-Graduação Direito Constitucional - FDSM</title>
@@ -37,7 +46,8 @@
 
     <body>
         <!-- RESPONSIVE & HAMBURGER'S MENU SECTION -->
-    	<section>    
+        <span id="home"></span>
+    	<section>
             <div id="Inicio" class="topnav">
                 <span class="menu_active">
                     <a href="https://www.fdsm.edu.br" rel="noopener" aria-label=" Link de volta para o site da FDSM. " class="esp"><img src="" data-original="" class="img-webp" data-webp="images/logo_fdsm_w.webp" data-original="images/img-fallback/logo_fdsm_w.png" id="logo_topo_w" alt="logo da faculdade de direito do sul de minas na cor branca"></a>
@@ -70,7 +80,7 @@
                     </div>
 
                     <div class="osw linha_2_pgdc">
-                    DIREITO
+                        DIREITO
                     </div>
 
                     <div class="osw linha_3_pgdc">
@@ -125,7 +135,7 @@
 
                 <div id="txt_e_btn_conteudo_programatico">
                     Conheça o conteúdo do curso.                    
-                    <a href="src/support/ementa.pdf" class="btn_download" title="Clique aqui para vizualizar a Ementa" target="_blank" rel="noopener" onClick="ga('send', 'event', {eventCategory: 'Download', eventAction: 'Visualizar arquivo', eventLabel: 'Etiqueta', });">Download</a>
+<a href="src/support/ementa.pdf" class="btn_download" title="Clique aqui para vizualizar a Ementa" target="_blank" rel="noopener" onclick="ga('send', 'event', 'Download', 'Visualizar arquivo', 'Etiqueta');">Download</a>
                 </div>
 
             </div>
@@ -153,9 +163,9 @@
                                 <img src=""data-webp="images/entrada_de_predio_anexo.webp" data-original="images/img-fallback/entrada_de_predio_anexo.jpg" class="img-webp dft-img" alt=" Entrada do Edifício Dr. Carlos Abel Guersoni Rezende, anexo a FDSM. ">
 
                                 <div class="txts_slideshow">
-                                    <div class="txt_ss_titulo_lg">Prédio da Pós-Graduação</div>                                                                                
+                                    <div class="txt_ss_titulo_lg">Prédio da Pós-Graduação</div>
                                 </div>
-                            </div>                                                        
+                            </div> 
 
                             <div class="imgs_ss_1">
                                 <img src="" data-original="images/img-fallback/fdsm-sala-2.jpg" data-webp="images/fdsm-sala-2.webp" class="dft-img img-webp" alt=" Infraestrutura de sala de aula. ">
@@ -415,7 +425,7 @@
         <!--"BACK TO TOP" -->
         <section>
             <div id="btt">
-                <a href="#Inicio" aria-label=" Link que redirige de volta ao topo. ">
+                <a href="#home" aria-label=" Link que redirige de volta ao topo. ">
                     <svg fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="2 -0 20 20" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg>
                 </a>
             </div>    

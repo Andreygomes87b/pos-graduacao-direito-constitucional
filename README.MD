@@ -14,17 +14,17 @@
 ---
 
 ### :date: *Web-archive version:*
-[Constitutional Rights (Web-archive).](http://web.archive.org/web/20190521140522/https://www.fdsm.edu.br/pos-graduacao-direito-constitucional/)
+[Constitutional Rights (Web-archive).](http://web.archive.org/web/20190618125505/https://www.fdsm.edu.br/pos-graduacao-direito-constitucional/)
 
 ---
 
-### :rabbit2: *PageSpeed Report* (both mobile/desktop are over 90 on Lighthouse scoring guide):
-[PSI Report.](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.fdsm.edu.br%2Fpos-graduacao-direito-constitucional%2F&tab=mobile" )
+### :rabbit2: *PageSpeed Report* (Mobile - 98/ Desktop - 100 on Lighthouse scoring guide):
+[PSI Report.](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.fdsm.edu.br%2Fpos-graduacao-direito-constitucional%2F&tab=desktop)
 
 ---
 
-### :watch: *GTmetrix test* (1.2 seconds to fully loading time!)
-[GTM](https://gtmetrix.com/reports/www.fdsm.edu.br/ZQslET9O)
+### :watch: *GTmetrix test* (PageSpeed - 98%/ YSlow - 92%, 1.2 seconds to fully loaded time!)
+[GTM](https://gtmetrix.com/reports/www.fdsm.edu.br/2XGYV65R)
 
 ---
 

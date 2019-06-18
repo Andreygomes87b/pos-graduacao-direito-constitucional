@@ -189,7 +189,7 @@ a{text-decoration: none;}
     .logo{float: right; padding: 1% 1%;}
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
-    #btt { float: left; width: 1.4%; height: 3%; margin: 50% 0 0 97.6%; position: fixed; }
+    #btt { float: left; width: 1.4%; height: 3%; margin: -163% 0 0 97.6%; position: fixed; }
 
 
 }
@@ -306,7 +306,7 @@ a{text-decoration: none;}
     .logo{float: right; padding: 1% 1%;}    
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
-    #btt { float: left; width: 1.4%; height: 3%; margin: 130% 0 0 97.6%; position: fixed; }
+    #btt { float: left; width: 1.4%; height: 3%; margin: -165% 0 0 97.6%; position: fixed; }
 
 
 }
@@ -412,7 +412,7 @@ a{text-decoration: none;}
     .logo{float: right; padding: 1% 1%;}  
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
-    #btt { float: left; width: 1.4%; height: 3%; margin: 155% 0 0 96.6%; position: fixed; }
+    #btt { float: left; width: 1.4%; height: 3%; margin: -137% 0 0 96.6%; position: fixed; }
 
 
 }
@@ -544,7 +544,7 @@ a{text-decoration: none;}
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
-    #btt { float: left; width: 1.4%; height: 3%; margin: 126% 0 0 94.6%; position: fixed; }
+    #btt { float: left; width: 1.4%; height: 3%; margin: -553% 0 0 96.6%; position: fixed; }
 
 
 }
@@ -671,7 +671,7 @@ polyline { color: #f9b006; }
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
-    #btt { float: left; width: 1.4%; height: 3%; margin: 150% 0 0 94.6%; position: fixed; }
+    #btt { float: left; width: 1.4%; height: 3%; margin: -570% 0 0 94.6%; position: fixed; }
 
 
 }
@@ -797,7 +797,7 @@ polyline { color: #f9b006; }
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
-    #btt { float: left; width: 1.4%; height: 3%; margin: 140% 0 0 94.6%; position: fixed; }
+    #btt { float: left; width: 1.4%; height: 3%; margin: -575% 0 0 94.6%; position: fixed; }
 
 }
 /*======================================================================================================================================================================================================================================================================================================================*/
